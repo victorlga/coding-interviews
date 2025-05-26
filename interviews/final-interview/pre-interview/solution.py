@@ -9,6 +9,8 @@ def findOrder(numCourses, prerequisites):
 
     Time: O(V + E), where V is the number of courses and E is the number of prerequisite pairs
     Space: O(V + E), for the adjacency list and in-degree storage
+
+    Visualization: https://claude.ai/public/artifacts/aa9f8f0f-9d20-4ccf-bbd9-93ec19289e6b
     """
     graph = [[] for _ in range(numCourses)]
     in_degree = [0] * numCourses

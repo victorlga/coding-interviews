@@ -69,6 +69,8 @@ This problem is adapted from LeetCode: [Course Schedule II](https://leetcode.com
    - If any of these now have in-degree 0, add them to the queue.
 5. If the resulting list contains all courses, return it. Otherwise, return an empty array.
 
+[Click to see the online visualization.](https://claude.ai/public/artifacts/aa9f8f0f-9d20-4ccf-bbd9-93ec19289e6b)
+
 ## Time and Space Complexity
 
 **Time Complexity**:  
